@@ -6,7 +6,7 @@ const searchResult = document.getElementById("search-result");
 
 let page = 1;
 let keyWord = "";
-const accesskey = "Ag1mn0IxdWlwY0H6DIIb4HZCpufLX7YIxBx1SGncNoM";
+const accesskey = "Your-API-Key";
 async function GetPictures() {
   keyWord = boxElement.value;
   const url = `https://api.unsplash.com/search/photos?page=${page}&query=${keyWord}&client_id=${accesskey}&per_page=12`;
